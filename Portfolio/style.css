@@ -1,0 +1,80 @@
+/* Base Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+header p {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Navigation */
+nav {
+  background-color: #eaeaea;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+/* Section Styling */
+section {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  border-bottom: 2px solid #004080;
+  padding-bottom: 8px;
+  color: #004080;
+}
+
+/* Articles in Projects */
+article {
+  margin-bottom: 24px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #004080;
+  color: #fff;
+  padding: 16px;
+  margin-top: 32px;
+}
+
+/* Links */
+a {
+  color: #004080;
+}
+
+a:hover {
+  text-decoration: underline;
+}
